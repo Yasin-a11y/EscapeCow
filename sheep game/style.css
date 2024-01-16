@@ -1,0 +1,104 @@
+/* Global styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  
+  }
+  
+  /* Header */
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;  
+  }
+  
+  /* Main content area */
+  
+  main {
+    padding: 20px;
+  }
+  #canvasContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #gameCanvas {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    background-image: url(images/Farm.jpg);
+    background-size: cover;
+  }
+    /* Characters */
+   
+    /* Ship */
+  .ship {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/sheep.png');
+    background-size: cover;
+  }
+  
+  /* Wolf */
+  .wolf {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/wolf.png');
+    background-size: cover;
+  }
+  
+  /* Wall */
+  .wall {
+    width: 10px;
+    height: 100px;
+    background-color: #333;
+  }
+
+  /* Game controls */
+  
+  #gameControls {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  #gameControls button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; 
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin: 10px 10px 10px ;  
+  }
+
+  
+  
+  /* Score and instructions */  
+  
+  #score, #instructions {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0; 
+  }
+
