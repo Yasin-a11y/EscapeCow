@@ -37,7 +37,7 @@ window.onload = function() {
       spawned: false,
     };
   
-    canvas.style.backgroundImage = 'url(images/farm.jpg)';
+    canvas.style.backgroundImage = 'url(images/Farm.jpg)';
   
     let score = 0;
     let gameRunning = false;
