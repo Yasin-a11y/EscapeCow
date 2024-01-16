@@ -35,7 +35,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     display: block;
-    background-image: url(images/Farm.jpg);
+    background-image: url('images/Farm.jpg');
     background-size: cover;
   }
     /* Characters */
