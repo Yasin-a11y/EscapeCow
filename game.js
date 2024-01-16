@@ -36,8 +36,7 @@ window.onload = function() {
       gap: 150,
       spawned: false,
     };
-  
-    canvas.style.backgroundImage = 'url(images/Farm.jpg)';
+
   
     let score = 0;
     let gameRunning = false;
